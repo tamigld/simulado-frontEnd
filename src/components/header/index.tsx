@@ -2,6 +2,7 @@ import './style.css'
 
 import logo from "../../assets/img/homepage/logo.png"
 import admIcon from "../../assets/img/adm-icon.png"
+import { Link } from 'react-router-dom'
 
 export default function Header(){
     return(
@@ -13,14 +14,15 @@ export default function Header(){
                 <a href="#">Usuários</a>
                 <a href="#">Contatos</a>
                 <div>
-                    <a
+                    <Link 
+                    to={"/login"}
                     style={{
                         display: "flex",
                         gap: "20px",
                         alignItems: "center"
                     }}
-                    href="#"
-                    >Administrador
+                    >
+                    Administrador
                     <img 
                     style={{
                         width: "auto",
@@ -29,7 +31,7 @@ export default function Header(){
                     src={admIcon}
                     alt=""
                     />
-                    </a>
+                    </Link>
                 </div>
             </nav>
         </header>

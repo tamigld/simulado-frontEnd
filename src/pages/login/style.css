@@ -23,8 +23,9 @@
 }
 
 #left-side{
-    width: 50%;
+    width: 55%;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
     background-color: var(--vermelho);
 
     display: flex;
@@ -32,16 +33,15 @@
     align-items: center;
 }
 
-/* .efect{
-    width: 10%;
-    background-color: var(--vermelho);
-    border: 50px solid;
-    border-color: #B51D44 rgb(180, 169, 169, 0) rgb(180, 169, 169, 0)  #B51D44; 
-} */
-
+#left-side>img{
+    width: 380px;
+    position: relative;
+    left: -40px;
+}
 
 #rigth-side{
-    width: 50%;
+    width: 45%;
+    padding: 60px;
 }
 
 #rigth-side>div{
@@ -64,6 +64,7 @@
 }
 
 .formLogin input{
+    padding: 8px 10px;
     width: 300px;
     border: none;
     border-bottom: 2px solid var(--preto);
@@ -75,6 +76,8 @@
     color: var(--branco);
     padding: 5px 30px;
     border-radius: 5px;
+
+    font-size: 16px;
 }
 
 .formLogin a{
@@ -82,4 +85,9 @@
     font-size: 12px;
     text-align: center;
     text-decoration: none;
+}
+
+#rigth-side>div>img{
+    width: auto;
+    height: 40px;
 }

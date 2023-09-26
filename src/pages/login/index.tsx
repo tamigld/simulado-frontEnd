@@ -8,9 +8,7 @@ export default function Login(){
     return(
         <main id='login'>
             <section id='left-side'>
-                <div>
-                    <img src={loginIMG} alt="" />
-                </div>
+                <img src={loginIMG} alt="" />
             </section>
             {/* <div className='efect'></div> */}
 
