@@ -10,8 +10,6 @@ export default function Login(){
             <section id='left-side'>
                 <img src={loginIMG} alt="" />
             </section>
-            {/* <div className='efect'></div> */}
-
             <section id='rigth-side'>
                 <div>
                     <img src={logo} alt="" />

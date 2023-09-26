@@ -11,9 +11,9 @@ export default function Header(){
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Eventos</a>
-                <a href="#">Usuários</a>
+                {/* <a href="#">Usuários</a> */}
                 <a href="#">Contatos</a>
-                <div>
+                {/* <div>
                     <Link 
                     to={"/login"}
                     style={{
@@ -32,6 +32,9 @@ export default function Header(){
                     alt=""
                     />
                     </Link>
+                </div> */}
+                <div>
+                    <Link className='link' to={"/login"}>Logar</Link>
                 </div>
             </nav>
         </header>
