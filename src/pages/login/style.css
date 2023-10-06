@@ -24,7 +24,7 @@
 
 #left-side{
     width: 55%;
-    height: 100vh;
+    height: calc(100vh - 65px);
     clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
     background-color: var(--vermelho);
 

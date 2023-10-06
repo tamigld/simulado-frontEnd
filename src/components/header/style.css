@@ -13,11 +13,6 @@
 }
 
 #header{
-    /* height: 40px; */
-    /* position: absolute;
-
-    width: 100vw; */
-
     background-color: var(--branco);
 
     display: flex;

@@ -9,7 +9,7 @@ export default function Header(){
         <header id='header'>
             <img className='logoHeader' src={logo} alt="" />
             <nav>
-                <a href="#">Home</a>
+                <Link to={"/"}>Home</Link>
                 <a href="#">Eventos</a>
                 {/* <a href="#">Usuários</a> */}
                 <a href="#">Contatos</a>

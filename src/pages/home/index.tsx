@@ -7,7 +7,6 @@ import imgContato from "../../assets/img/homepage/img-contato.png"
 export default function Homepage(){
     return(
         <>
-        <Header/>
         <section id='topSection'>
         </section>
         <section className='nextEvent'>
@@ -51,9 +50,23 @@ export default function Homepage(){
             <div className='linkContatos'>
                 <img src={imgContato} alt="" />
                 <div>
-                    <p>Rua Niterói, 180 - Centro</p>
-                    <p>São Caetano do Sul - SP</p>
-                    <p>(11) 4225-2000</p>
+                    <a
+                    target='blank' 
+                    href='https://maps.app.goo.gl/bNHYiSoL5VqgASDk6'
+                    style={{
+                        textDecoration: "none",
+                        color: "var(--preto)"
+                    }}
+                    >Rua Niterói, 180 - Centro <br />
+                    São Caetano do Sul - SP
+                    </a>
+                    <p
+                    style={{
+                        textDecoration: "underline"
+                    }}
+                    >
+                    (11) 4225-2000
+                    </p>
                 </div>
             </div>
         </section>
