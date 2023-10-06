@@ -67,7 +67,19 @@
     padding: 8px 10px;
     width: 300px;
     border: none;
-    border-bottom: 2px solid var(--preto);
+    border-bottom: 1px solid var(--preto);
+}
+
+.formLogin input::placeholder{
+    color: #B4A9A9;
+}
+
+.formLogin input:focus{
+    color: var(--vermelho);
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .formLogin button{
